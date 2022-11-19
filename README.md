@@ -31,6 +31,6 @@ Automated changelog: https://docs.github.com/en/repositories/releasing-projects-
 
 To use docker compose simply run ```docker compose up -d```
 
-You can see the project [here](localhost:8080)
+You can see the project [here](http://localhost:8080/)
 
 If u want to acces to the container run ```docker compose exec -it server bash```
