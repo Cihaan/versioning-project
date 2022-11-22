@@ -1,16 +1,22 @@
 on:
   push:
-    branches:
-      - main
-      
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Install node modules
-      - run: npm i
-      
-      
+      - name: Checkout code
+        uses: actions/checkcout@v3
+        
+      - run: npm install
+    
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        with: 
+          args: deploy --dir=build --prod
+          secrets: '["DEV_NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
