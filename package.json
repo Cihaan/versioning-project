@@ -1,6 +1,21 @@
 {
   "name": "versioning-project",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+   },
+  "dependencies": {
+    "@popperjs/core": "2.11.6",
+    "bootstrap": "5.2.2",
+    "jquery": "3.6.1"
   "description": "@Cihaan @Gyomzz @Pehlow @PChl0e",
   "main": "index.js",
   "scripts": {
@@ -16,7 +31,4 @@
     "url": "https://github.com/Cihaan/versioning-project/issues"
   },
   "homepage": "https://github.com/Cihaan/versioning-project#readme",
-  "devDependencies": {
-    "jest": "^29.3.1"
-  }
 }
