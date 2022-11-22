@@ -4,13 +4,11 @@ specifiers:
   '@popperjs/core': 2.11.6
   bootstrap: 5.2.2
   jquery: 3.6.1
-  '@fortawesome/fontawesome-free': ^6.2.1
 
 dependencies:
   '@popperjs/core': 2.11.6
   bootstrap: 5.2.2_@popperjs+core@2.11.6
   jquery: 3.6.1
-  '@fortawesome/fontawesome-free': 6.2.1
 
 packages:
 
@@ -28,10 +26,4 @@ packages:
 
   /jquery/3.6.1:
     resolution: {integrity: sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==}
-    
-   /@fortawesome/fontawesome-free/6.2.1:
-    resolution: {integrity: sha512-viouXhegu/TjkvYQoiRZK3aax69dGXxgEjpvZW81wIJdxm5Fnvp3VVIP4VHKqX4SvFw6qpmkILkD4RJWAdrt7A==}
-    engines: {node: '>=6'}
-    requiresBuild: true
- 
     dev: false
