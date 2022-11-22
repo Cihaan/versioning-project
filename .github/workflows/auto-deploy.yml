@@ -16,9 +16,14 @@ jobs:
       - name: Install Netlify-cli
         run: npm install netlify-cli -g
       
-      - name: Login & Deploy to Netlify
+      - name: Login to Netlify
         env: 
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: netlify container:login
+        
+      - name: Deploy to Netlify
+        env: 
+            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+            NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: netlify container:deploy
