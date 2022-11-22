@@ -33,4 +33,7 @@ To use docker compose simply run ```docker compose up -d```
 
 You can see the project [here](http://localhost:8080/)
 
-If u want to acces to the container run ```docker compose exec -it server bash```
+If u want to acces to the container run ```docker compose exec -it server bash``` 
+
+## Test 
+Run the test with : ``` npm test ```

@@ -1,0 +1,22 @@
+{
+  "name": "versioning-project",
+  "version": "1.0.0",
+  "description": "@Cihaan @Gyomzz @Pehlow @PChl0e",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cihaan/versioning-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cihaan/versioning-project/issues"
+  },
+  "homepage": "https://github.com/Cihaan/versioning-project#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
