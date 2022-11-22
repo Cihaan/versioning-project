@@ -25,3 +25,4 @@ Celui-ci s'organise de la manière suivante:
 ## Sources
 Workflow : https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow  
 Commit : https://www.conventionalcommits.org/en/v1.0.0/
+Automated changelog: https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes#configuring-automatically-generated-release-notes
