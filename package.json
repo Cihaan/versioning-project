@@ -9,9 +9,26 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+   },
   "dependencies": {
     "@popperjs/core": "2.11.6",
     "bootstrap": "5.2.2",
     "jquery": "3.6.1"
-  }
+  "description": "@Cihaan @Gyomzz @Pehlow @PChl0e",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cihaan/versioning-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cihaan/versioning-project/issues"
+  },
+  "homepage": "https://github.com/Cihaan/versioning-project#readme",
 }
