@@ -26,3 +26,14 @@ Celui-ci s'organise de la manière suivante:
 Workflow : https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow  
 Commit : https://www.conventionalcommits.org/en/v1.0.0/
 Automated changelog: https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes#configuring-automatically-generated-release-notes
+
+## Docker compose
+
+To use docker compose simply run ```docker compose up -d```
+
+You can see the project [here](http://localhost:8080/)
+
+If u want to acces to the container run ```docker compose exec -it server bash``` 
+
+## Test 
+Run the test with : ``` npm test ```
