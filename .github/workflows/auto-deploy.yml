@@ -9,9 +9,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Install pnmp
+        run: npm install pnpm -g
     
       - name: Install dependencies
-        run: npm install
+        run: npm install && pnpm install
 
       - name: Install Netlify-cli
         run: npm install netlify-cli -g
