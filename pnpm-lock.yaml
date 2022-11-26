@@ -6,12 +6,18 @@ specifiers:
   bootstrap: 5.2.2
   jest: ^29.3.1
   jquery: 3.6.1
+  jquery.sticky: ^0.2.1
+  owl.carousel: ^2.3.4
+  wowjs: ^1.1.3
 
 dependencies:
   '@fortawesome/fontawesome-free': 6.2.1
   '@popperjs/core': 2.11.6
   bootstrap: 5.2.2_@popperjs+core@2.11.6
   jquery: 3.6.1
+  jquery.sticky: 0.2.1
+  owl.carousel: 2.3.4
+  wowjs: 1.1.3
 
 devDependencies:
   jest: 29.3.1
@@ -722,6 +728,10 @@ packages:
     dependencies:
       '@types/yargs-parser': 21.0.0
     dev: true
+
+  /animate.css/4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
+    dev: false
 
   /ansi-escapes/4.3.2:
     resolution: {integrity: sha512-gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ==}
@@ -1758,6 +1768,10 @@ packages:
       - ts-node
     dev: true
 
+  /jquery.sticky/0.2.1:
+    resolution: {integrity: sha512-HxOBysKKiX4VifAMP5zfLusHQQu8Bs7Fb0U5d0bBWrRC5JMwYlucVPufwjn3WCcx+uNcXiETm7o0NrSBpU/gLg==}
+    dev: false
+
   /jquery/3.6.1:
     resolution: {integrity: sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==}
     dev: false
@@ -1894,6 +1908,12 @@ packages:
     dependencies:
       mimic-fn: 2.1.0
     dev: true
+
+  /owl.carousel/2.3.4:
+    resolution: {integrity: sha512-JaDss9+feAvEW8KZppPSpllfposEzQiW+Ytt/Xm5t/3CTJ7YVmkh6RkWixoA2yXk2boIwedYxOvrrppIGzru9A==}
+    dependencies:
+      jquery: 3.6.1
+    dev: false
 
   /p-limit/2.3.0:
     resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
@@ -2217,6 +2237,12 @@ packages:
     dependencies:
       isexe: 2.0.0
     dev: true
+
+  /wowjs/1.1.3:
+    resolution: {integrity: sha512-HQp1gi56wYmjOYYOMZ08TnDGpT+AO21RJVa0t1NJ3jU8l3dMyP+sY7TO/lilzVp4JFjW88bBY87RnpxdpSKofA==}
+    dependencies:
+      animate.css: 4.1.1
+    dev: false
 
   /wrap-ansi/7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
