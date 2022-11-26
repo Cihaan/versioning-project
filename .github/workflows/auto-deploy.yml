@@ -1,0 +1,35 @@
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install pnmp
+        run: npm install pnpm -g
+    
+      - name: Install dependencies
+        run: npm install && pnpm install
+      
+      - name: Run test
+        run: npm test
+
+      - name: Install Netlify-cli
+        run: npm install netlify-cli -g
+      
+      - name: Login to Netlify
+        env: 
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: netlify login
+        
+      - name: Deploy to Netlify
+        env: 
+            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+            NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: netlify deploy --prod --dir="."
