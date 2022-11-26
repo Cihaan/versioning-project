@@ -37,3 +37,10 @@ If u want to acces to the container run ```docker compose exec -it server bash``
 
 ## Test 
 Run the test with : ``` npm test ```
+
+
+## Auto deploy
+
+This project is auto deployed to Netlify via github actions.
+
+You can see the latest run of the actions [here](https://github.com/Cihaan/versioning-project/actions).
