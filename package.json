@@ -11,7 +11,10 @@
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@popperjs/core": "2.11.6",
     "bootstrap": "5.2.2",
-    "jquery": "3.6.1"
+    "jquery": "3.6.1",
+    "jquery.sticky": "^0.2.1",
+    "owl.carousel": "^2.3.4",
+    "wowjs": "^1.1.3"
   },
   "description": "@Cihaan @Gyomzz @Pehlow @PChl0e",
   "main": "index.js",
