@@ -12,7 +12,8 @@ changelog:
       labels:
         - feat
     - title: Patch 🐜
-      - fix
+      labels:
+        - fix
     - title: Other Changes
       labels:
         - "*"
