@@ -18,9 +18,34 @@ Pour la nomenclature des commits, nous sommes partis sur la Conventionnal Commit
 Celui-ci s'organise de la manière suivante:
 ![image](https://user-images.githubusercontent.com/80070465/198224157-e0509863-037c-4bb2-bdff-c40560dee81c.png)
 
-## Preview
-//TODO images du projet
+## Pull request 
+Pour la fusion des branches de feature, nous sommes passés par des Pull Requests. Les pull requests permettent de valider le code et la fonctionnalité avant de la fusionner avec le code dans le serveur de dev ou bien celui de développement. Durant la pull request, le pair se doit de confirmer la propreté du code et de son bon fonctionnement, si ce n'est pas le cas, il se doit faire des commentaires indiquant ce qui ne va pas et ce qu'il faut changer. Après quoi le code est relu une deuxième fois puis finalement validé puis merge vers la branche develop.
 
+## Issue 
+Pour se répartir les tâches, nous avons fait une list d'issues que nous nous sommes assignés et avons changé le label pour marquer son indisponibilité. Des labels ont été mis en place pour indiquer dans quelle case se place la feature : 
+- feat
+- breaking change
+- chore
+- deploy
+- docs
+- duplicate
+- fix
+- help wanted
+- refactor 
+Pour avoir une meilleure visualisations qu'une liste nous avons utilisé un Kanban.
+
+## Kanban
+Pour avoir une meilleur visualisation des tâches et de la répartition de celles-ci, nous avons utilisé un Kanban directement intégré à GitHub. Il permet une meilleur gestion du projet et permet de savoir où en sont les membres de l'équipe avec un coup d'oeil seulement. 
+
+![image](./assets//kanban.png) 
+
+## Preview
+
+![image](./assets//preview.png) 
+
+## Live preview 
+
+https://rainbow-biscotti-941430.netlify.app/ 
 
 ## Sources
 Workflow : https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow  
