@@ -40,8 +40,12 @@ Pour avoir une meilleur visualisation des tâches et de la répartition de celle
 ![image](./assets//kanban.png) 
 
 ## Preview
-//TODO images du projet
 
+![image](./assets//preview.png) 
+
+## Live preview 
+
+https://rainbow-biscotti-941430.netlify.app/ 
 
 ## Sources
 Workflow : https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow  
